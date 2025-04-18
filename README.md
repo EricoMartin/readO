@@ -1,16 +1,111 @@
-# Welcome to your Expo app 👋
+# 📚 ReadO - Your Personalized Academic Companion
+
+![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Status](https://img.shields.io/badge/status-in%20development-yellow)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-React%20Native-blueviolet)
+![Build](https://img.shields.io/badge/build-mobile--first-orange)
+
+**ReadO** is a student-focused EdTech mobile app built with React Native. It helps students thrive academically through powerful tools for study tracking, organization, collaboration, and motivation. Designed for learners aged 15–35, ReadO also supports academic institutions and parents.
+
+---
+
+## 🎯 Objective
+
+To create a personalized, engaging, and collaborative academic tool that simplifies study planning and increases academic success.
+
+---
+
+## 📌 Problem Statement
+
+Students often struggle to stay motivated and organized with their workload. ReadO solves this with a mobile-first app offering personalized study tools, motivational support, and real-time progress tracking.
+
+---
+
+## 👥 Target Audience
+
+- High school, college, and university students  
+- Academic institutions  
+- Parents supporting student growth 
+- Adult/ Lifelong learners 
+
+---
+
+## 🚀 Core Features
+
+✅ Progress Tracking (study hours & goals)  
+✅ Focus Timers with custom settings  
+✅ Dedicated Note-Taking Notebooks  
+✅ Course Outline & Material Organization  
+✅ Weekly/Monthly Performance Reports  
+✅ Motivational Emails & Smart Reminders  
+✅ Offline Access for key features  
+✅ Peer Learning (Live Chat & File Sharing)  
+✅ AI-Powered Quiz Generator  
+✅ Badge System for Milestone Rewards  
+
+---
+
+## 🔐 Authentication
+
+- Email/password login with verification  
+- OAuth (Google/Apple) support  
+- Secure password recovery  
+- Multi-factor authentication (MFA)  
+- Full profile management  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer         | Technology                    |
+|---------------|-------------------------------|
+| Mobile App    | React Native (Expo)           |
+| Backend       | .NET                          |
+| Database      | SQL Server                    |
+| Hosting       | Azure or AWS                  |
+| AI Features   | Azure/AWS Cognitive Services  |
+| Email Service | SendGrid                      |
+| Auth          | JWT, bcrypt, MFA              |
+
+---
+
+## 📱 Installation Guide
+
+### 📦 Prerequisites
+
+- Node.js ≥ 16  
+- Expo CLI  
+- .NET SDK ≥ 6.0 (for backend)  
+- Android Studio / Xcode (for emulators)  
+- SQL Server instance  
+- SendGrid account  
+
+---
+
+### 🔧 Clone the Repository
+
+```bash
+git clone https://github.com/your-username/reado.git
+cd reado
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+### Run the app
 
-1. Install dependencies
+1. Switch to the app directory
+
+   ```bash
+   cd app
+   ```
+
+2. Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
+3. Start the app
 
    ```bash
     npx expo start
@@ -23,17 +118,6 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
 ## Learn more
 
@@ -41,10 +125,3 @@ To learn more about developing your project with Expo, look at the following res
 
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
