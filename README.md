@@ -6,7 +6,7 @@
 ![Platform](https://img.shields.io/badge/platform-React%20Native-blueviolet)
 ![Build](https://img.shields.io/badge/build-mobile--first-orange)
 
-**ReadO** is a student-focused EdTech mobile app built with React Native. It helps students thrive academically through powerful tools for study tracking, organization, collaboration, and motivation. Designed for learners aged 15–35, ReadO also supports academic institutions and parents.
+**ReadO** is a student-focused EdTech mobile app built with React Native. It helps students thrive academically through powerful tools for study tracking, organization, collaboration, and motivation. Designed for learners 15 and above, ReadO also supports academic institutions and parents.
 
 ---
 
@@ -89,8 +89,6 @@ Students often struggle to stay motivated and organized with their workload. Rea
 git clone https://github.com/your-username/reado.git
 cd reado
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
 ```
 ### Run the app
 
@@ -110,6 +108,12 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
    ```bash
     npx expo start
+
+    Press i to open iOS Simulator
+
+    Press a to open Android Emulator
+
+    Or scan QR code with Expo Go on your mobile device
    ```
 
 In the output, you'll find options to open the app in a
