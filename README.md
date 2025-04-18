@@ -113,7 +113,7 @@ cd reado
 
     Press a to open Android Emulator
 
-    Or scan QR code with Expo Go on your mobile device
+    Or scan QR code with Expo Go on your mobile device. Note: Install Expo Go from Apple or Play Store on your phone.
    ```
 
 In the output, you'll find options to open the app in a
