@@ -92,19 +92,13 @@ cd reado
 ```
 ### Run the app
 
-1. Switch to the app directory
-
-   ```bash
-   cd app
-   ```
-
-2. Install dependencies
+1. Install dependencies
 
    ```bash
    npm install
    ```
 
-3. Start the app
+2. Start the app
 
    ```bash
     npx expo start
